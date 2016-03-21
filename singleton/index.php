@@ -1,14 +1,24 @@
+<<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
 <?php
 
 /*
- *   Singleton classes
+ *   Singleton class
  */
 class BookSingleton {
     private $author = 'Jack Welch';
     private $title  = 'Winning';
     private static $book = NULL;
     private static $isLoanedOut = FALSE;
-
+    /* *
+    **call this function to get singleton
+    *
+    *@ return BookSingleton
+    */
     private function __construct() {
     }
 
@@ -103,3 +113,6 @@ class BookBorrower {
     echo $line_in.'<br/>';
   }
 ?>
+
+</body>
+</html>
