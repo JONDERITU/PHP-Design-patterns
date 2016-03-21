@@ -1,9 +1,4 @@
-<<!DOCTYPE html>
-<html>
-<head>
-	<title>Strategt Pattern</title>
-</head>
-<body>
+
 <?php
 
 class StrategyContext {
@@ -101,6 +96,3 @@ class Book {
   }
 
 ?>
-
-</body>
-</html>
