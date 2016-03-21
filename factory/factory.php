@@ -20,7 +20,7 @@ class TelevisionFactory
 {
     public static function create($make, $model)
     {
-        return new Automobile($make, $model);
+        return new Television($make, $model);
     }
 }
 
