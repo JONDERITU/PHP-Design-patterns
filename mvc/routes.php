@@ -1,3 +1,11 @@
+/**
+ * Cytonn Technologies
+ *
+ * @author: Joseph Gichane <jgichane@cytonn.com>
+ *
+ * Project: design_patterns.app
+ *
+ */
 <?php
   function call($controller, $action) {
     // require the file that matches the controller name

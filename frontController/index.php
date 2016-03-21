@@ -1,3 +1,11 @@
+/**
+ * Cytonn Technologies
+ *
+ * @author: Joseph Gichane <jgichane@cytonn.com>
+ *
+ * Project: php.app
+ *
+ */
 <?php
 require_once('header.php');
 $user=$_SESSION['user'];

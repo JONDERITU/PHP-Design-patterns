@@ -1,4 +1,11 @@
-
+/**
+ * Cytonn Technologies
+ *
+ * @author: Joseph Gichane <jgichane@cytonn.com>
+ *
+ * Project: design_patterns.app
+ *
+ */
 <?php
 
 class StrategyContext {
